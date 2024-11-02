@@ -1,7 +1,9 @@
 {
   "name": "tumble-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of Tailwind and shadcn-based web sections",
+  "author": "NotSooShariff <osh.econnect@gmail.com> (https://osh.fyi/)",
+  "license": "MIT",
   "main": "dist/index.js",
   "bin": {
     "tumble-ui": "./dist/cli.js"
@@ -10,6 +12,23 @@
       "dist",
       "assets"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotSooShariff/tumble-ui.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "nextjs",
+    "tailwindcss",
+    "radix-ui",
+    "shadcn-ui"
+  ],
+  "bugs": {
+    "url": "https://github.com/NotSooShariff/tumble-ui/issues"
+  },
+  "homepage": "https://github.com/NotSooShariff/tumble-ui#readme",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc && ts-node scripts/copy-assets.ts",
