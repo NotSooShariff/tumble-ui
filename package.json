@@ -1,6 +1,6 @@
 {
   "name": "tumble-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A collection of Tailwind and shadcn-based web sections",
   "author": "NotSooShariff <osh.econnect@gmail.com> (https://osh.fyi/)",
   "license": "MIT",
@@ -9,8 +9,8 @@
     "tumble-ui": "./dist/cli.js"
   },
   "files": [
-      "dist",
-      "assets"
+    "dist",
+    "assets"
   ],
   "repository": {
     "type": "git",
@@ -35,22 +35,23 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
+    "chalk": "^4.1.2",
     "commander": "^11.0.0",
     "fs-extra": "^11.1.1",
-    "chalk": "^4.1.2",
     "prompts": "^2.4.2"
   },
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
-    "next": ">=13.0.0"
+    "next": ">=13.0.0",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.0.0",
     "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.0.0",
     "@types/react": "^18.2.0",
-    "typescript": "^5.0.0",
     "react": "^18.2.0",
     "rimraf": "^5.0.1",
-    "ts-node": "^10.9.1"
-  }
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "private": "true"
 }
