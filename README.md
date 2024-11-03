@@ -8,6 +8,8 @@
 
 > A collection of ready-to-use React components built on top of shadcn/ui
 
+[! WARNING] ⚠️ The current components are test versions intended for development & testing purposes within the npm package. These are not production-ready components and do not reflect the end product in any way or form. Please await the official beta release, scheduled for November 13, 2024.
+
 ## 🚀 Features
 
 - Pre-built sections and layouts
